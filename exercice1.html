@@ -7,12 +7,12 @@
 		<script src="exercice1.js"></script>
 	</head>
 	<body>
-		<form name="sumForm" method="post" class="sumForm">
+		<form name="sumForm" class="sumForm" action="javascript:void(0);" onsubmit="sum(this)">
 			<strong>Первое число:</strong><br>
-			<input type="text" name="firstNumber"><br><br>
+			<input type="text" value="0.1" name="firstNumber"><br><br>
 			<strong>Второе число:</strong><br>
-			<input type="text" name="secondNumber"><br><br>
-			<input type="submit" value="Сложение" onclick="sum(sumForm)">
+			<input type="text" value="0.2" name="secondNumber"><br><br>
+			<input type="submit" value="Сложение">
 		</form>
 	</body>
 </html>
